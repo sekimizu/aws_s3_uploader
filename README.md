@@ -51,11 +51,12 @@ $ roslaunch aws_s3_upload aws_s3_upload.launch
 ```
 Fill-in AWS related infroamtion into 'app.py'
 
+```
 AWS_ACCESS_KEY_ID = '<YOUR_ACCESS_KEY_ID>'
 AWS_SECRET_ACCESS_KEY = '<YOUR_AWS_SECRET_ACCESS_KEY>'
 AWS_BUCKET_NAME = '<YOUR_AWS_BUCKET_NAME>'
 AWS_FOLDER_NAME = '<YOUR_AWS_FOLDER_NAME>'
-
+```
 
 ## TESTING
 - Test uploader status report.
